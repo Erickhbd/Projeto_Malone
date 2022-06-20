@@ -2,79 +2,8 @@ body {
     background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
 }
 
-/* HEADER*/
-header {
-    position: fixed;
-    width: 100%;
-    background-image: " ";
-    z-index: 10;
-}
-
-img {
-    width: 100%;
-}
-
-header .cabecalho{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 700px;
-    height: 100%;
-    margin: auto;
-}
-
-header nav ul{
-    display: flex;
-}
-
-header nav ul li {
-    list-style: none;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 18px;
-    padding: 24px;
-    transition: all 250ms linear 0s;
-}
-
-header nav ul li a:hover {
-    background: rgba(255,255,255,0.15);
-}
-
-header .cabecalho img{
-    height: 60px;
-}
-
-#checkbox-menu{
-    display:none
-}
-
-.container{
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.section-title {
-    font-size: 4rem;
-    font-weight: 500;
-    color: black;
-    margin-bottom: 10px;
-    margin-top: 5px;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    text-align: center;
-}
-
 /*Formulário*/
-.box{
-    padding-top: 20%;
-    margin-bottom: 100px;
-}
+
 .box{
     color: white;
     position: absolute;
