@@ -94,10 +94,10 @@
         display: none;
     }
 
-    h2 {
+    main h2 {
         margin-left: 50px;
     }
-    div h3{
+    main div h3{
         margin-left:50px;
     }
 
