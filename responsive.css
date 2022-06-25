@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 750px) {
 
     .menu-button-container {
         display: flex
@@ -100,16 +100,4 @@
     main div h3{
         margin-left:50px;
     }
-
-    form{
-        display: flex;
-        align-items: center;
-        width: 100%;
-        padding-top: 30px;
-        text-align: center;
-        flex-direction: column;
-    }
-    input {
-        margin: 10px;
-    }   
 }

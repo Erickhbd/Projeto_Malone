@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
 }
@@ -13,7 +19,7 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     border-radius: 15px;
-    width: 25%;
+    width: 50%;
 }
 fieldset{
     border: 3px solid dodgerblue;
